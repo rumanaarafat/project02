@@ -1,0 +1,556 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+body{
+font-family: 'Raleway', sans-serif;
+font-size: 14px;
+line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+font-family: 'Raleway', sans-serif;
+}
+a, a:hover{
+text-decoration: none;
+}
+.top-header {
+width: 100%;
+padding: 20px 0px 15px 20px;
+background-color: #000000;
+}
+.header-section{
+widows: 100%;
+
+padding: 10px 0px;
+background: #000000;
+
+}
+.header-section .top-header .navbar-expand-lg .navbar-nav .nav-link {
+font-size: 14px;
+line-height: 24px;
+font-weight: 500;
+text-transform: uppercase;
+color: #fff;
+margin: 0px 0px 0px 10px;
+text-align: right;
+}
+.col-lg-4{
+flex: 0 0 auto;
+width: 33.33333333%;
+padding: 11px 6px 12px 0px;
+}
+.header-section .navbar-nav .nav-item .nav-link:hover{
+background: url("../images/div01.png") bottom center no-repeat;
+background-size: auto;
+color: #ff9b51;
+}
+.header .navbar-nav .nav-item .nav-link:focus{
+background: url("../images/div01.png") bottom center no-repeat;
+background-size: auto;
+color: #ff9b51;
+}
+.header .navbar-nav .nav-link.active{
+background: url("../images/div01.png") bottom center no-repeat;
+background-size: auto;
+}
+.top-header{
+width: 100%;
+padding: : 0px;
+background: #000000;
+}
+.top-header .info li a:hover, .top-header .info li a:focus{
+color: #00bc9c;
+transition: 0.5s ease-in;
+}
+
+.banner {
+width: 100%;
+padding: 0px 0px 80px 40px;
+background: url(../images/pic3.png) center top no-repeat;
+background-size: cover;
+}
+.inner-banner h1{
+width: 100%;
+font-size: 120px;
+font-weight: 700;
+letter-spacing: 1px;
+color: #fff;
+}
+.inner-banner span{
+font-size: 120px;
+font-weight: 300;
+color: #ff8b38;
+}
+.inner-banner h2{
+width: 100%;
+font-size: 40px;
+line-height: 50px;
+font-weight: 700;
+letter-spacing: 1px;
+color: #fff;
+}
+.inner-banner p{
+width: 100%;
+font-size: 16px;
+line-height: 26px;
+font-weight: 400;
+letter-spacing: 1px;
+color: #c0bfbe;
+}
+.inner-button .btn-success{
+	padding: 15px 35px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	border-radius: 2px;
+	letter-spacing: 1px;
+	color: #fff;
+	background: transparent;
+	border: 1px solid #fff;
+	transition: 1s;
+}
+
+.inner-button .btn-success:hover, .inner-button .btn-success:focus{
+	color: #000;
+	background: #ff9b51;
+	border: 1px solid #000;
+}
+.social-media{
+width: 100%;
+padding: 20px 20px;
+border: 2px solid #cccccc;
+}
+.social-media .social-icon li{
+	list-style: none;
+	display: inline-block;
+	text-align: right;
+}
+.social-media .social-icon li a{
+	display: block;
+	color: #cccccc;
+	margin: 0px 0px 0px 25px;
+	transition: 1s;
+}
+.social-media .social-icon .info{
+	text-align: right;
+}
+.social-media .social-icon .fa{
+	width: 100%;
+	font-size: 45px;
+	color:#cccccc ;
+	margin: 0px 45px 0px 0px;
+}
+.tab-section{
+	width: 100%;
+	padding: 40px 0px;
+	background: url(../images/ftrs.png) center top no-repeat;
+	background-size: cover;
+}
+.tab-section .tab-button{
+	width: 100%;
+	padding:15px 0px ;
+}
+.tab-section .tab-button .btn-primary {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background: #ff9b51;
+    padding: 40px 29px 60px 20px;
+    border: 1px solid;
+    }
+.tab-section .tab-button .btn-dark{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background: #000;
+    padding: 60px 30px 60px 30px;
+    border: 1px solid;
+    }
+
+.tab-section .btn-primary {
+    padding: 15px 35px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	border-radius: 2px;
+	letter-spacing: 1px;
+	color: #000;
+	background: transparent;
+	border: 1px solid #000;
+	transition: 1s;
+}
+
+.tab-section .btn-primary:hover, .tab-section .btn-primary:focus{
+	color: #000;
+	background: #ff9b51;
+	border: 1px solid #000;
+}
+
+.tab-section .tab-button .btn-dark:hover, .tab-section .btn-dark:focus{
+	color: #ff9b51;
+	background: #000;
+	border: 2px solid #ff9b51;
+}
+.tab-section img{
+	width: 100%;
+	padding: 10px 20px 0px 20px;
+}
+.tab-section h1{
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #ff9b51;
+	margin: 5px 0px 5px 0px;
+}
+	
+.tab-section p{
+	width: 100%;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	color: #000;
+	margin: 25px 0px 25px 0px;
+	
+}
+.sub-section{
+	width: 100%;
+	padding: 40px 0px 90px 0px;
+}
+.sub-section h1{
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 74px;
+	letter-spacing: 1px;
+	color: #ff9b51;
+	margin: 0px 20px 0px 0px;
+}
+.sub-section h4{
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 40px;
+	letter-spacing: 2px;
+	color: #000;
+	margin: 0px 20px 0px 0px;
+}
+.sub-section .fa{
+	width: 150%;
+	font-size:20px;
+    font-weight: 700;
+   
+    color: #506a85;
+   	padding: 0px 0px px 0px;
+	color:#ff8b38;
+}
+.sub-section .inner-text {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0px -114px 0px;
+
+}
+.picture{
+	width: 100%;
+	padding: 70px 0px;
+	background: url(../images/ftrs.png) center top no-repeat;
+	background-size: cover;
+}
+.picture h1{
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 74px;
+	letter-spacing: 1px;
+	color: #ff9b51;
+	margin: 0px 50px 0px 0px;
+}
+.awesome{
+	width: 100%;
+	padding: 70px 0px;
+	text-align: center;
+}
+.awesome h1{
+	font-size: 64px;
+	font-weight: 400;
+	line-height: 74px;
+	letter-spacing: 1px;
+	color: #000;
+	text-transform: uppercase;
+	margin: 0px 50px 0px 0px;
+}
+.awesome p{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 1px;
+	color: #403e3e;
+	
+}
+
+.inner-awesome{
+	width: 100%;
+	padding: 40px 50px ;
+	text-align: center;
+}
+.inner-awesome .icon{
+	width: 70px;
+	height: 70px;
+	line-height: 90px;
+	border-radius: 100%;
+	margin: 0px auto 20px;
+	border: 2px solid #ff9b51;
+}
+.inner-awesome .icon .fa{
+	font-size: 30px;
+	color: #ff9b51;
+	text-align: center;
+}
+.pricing-option{
+	width: 100%;
+	padding: 0px 50px ;
+	text-align: center;
+	background: url(../images/ftrs.png) center top no-repeat;
+	background-size: cover;
+}
+.pricing-option h1{
+	font-size: 64px;
+	font-weight: 400;
+	line-height: 74px;
+	letter-spacing: 1px;
+	color: #000;
+	text-transform: uppercase;
+	margin: 0px 50px 0px 0px;
+}
+.pricing-option p{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 1px;
+	color: #403e3e;
+	
+}
+.pricing-table{
+	width: 100%;
+	padding: -10px 20px 0px 20px;
+	border: 1px solid #000;
+	text-align: center;
+	background: #302d2d;
+	color: #fff;
+	border-bottom: 5px solid #ff9b51;
+}
+
+.pricing-table .price-head{
+	width: 100%;
+	padding: 20px 0px;
+	border-bottom: 1px solid #eee;
+
+}
+.pricing-table .price-head h4{
+	font-size: 40px;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 1px;
+	margin: 0px;
+	text-transform: capitalize;
+
+	
+}
+.pricing-table .main-price{
+	width: 100%;
+	padding: 30px 0px;
+
+}
+.pricing-table .main-price h1{
+	font-size: 90px;
+	line-height: 100px;
+	font-weight: 700;
+	color: #fff;
+	margin: 10px 0px;
+	border-bottom: 1px solid #fff;
+
+}
+.pricing-table .main-price h1 sub{
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 600;
+	color: #fff;
+	
+	margin: 0px;
+}
+.pricing-table .main-price p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #999999;
+	font-style: italic ;
+	margin: 0px;
+
+}
+.price{
+	width: 100%;
+	padding: 0px 30px;
+	text-align: center;
+}
+.pricing-option .pricing-content{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #999999;
+	text-align: center;
+	margin: 10px 0px;
+	background: #fff;
+}
+.customer-section{
+	width: 100%;
+	padding: 40px 0px;
+	text-align: center;
+	background: url(../images/ftrs.png) center top no-repeat;
+	background-size: cover;
+}
+.customer-section p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-style: justify;
+	margin: 20px 40px;
+	color: #999;
+}
+.customer-section .col-1 h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+}
+
+
+.stylish-section{
+	width: 100%;
+	padding: 40px 0px;
+	text-align: center;
+	background: url(../images/pic6.png) center top no-repeat;
+	background-size: cover;
+}
+.stylish-section h1{
+	font-size: 50px;
+	line-height: 60px;
+	font-weight: 700;
+	color: #fff;
+}
+.stylish-section p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	color: #fff;
+}
+.stylish-section .btn-success{
+	padding: 15px 35px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	border-radius: 2px;
+	letter-spacing: 1px;
+	color: #fff;
+	background: transparent;
+	border: 1px solid #fff;
+	transition: 1s;
+}
+.stylish-section .btn-success:hover, .stylish-section .btn-success:focus{
+	color: #000;
+	background: #ff9b51;
+	border: 1px solid #000;
+}
+.customer-section{
+	width: 100%;
+}
+
+
+.customer-section .col-1 h2{
+	font-size: 20px;
+	font-weight: 400;
+	color: #000;
+}
+.customer-section .col-1 h4{
+	font-size: 16px;
+	font-weight: 400;
+	color: #000;
+}
+.contact-us {
+	width: 100%;
+	padding: 40px 0px;
+	text-align: center;
+	background: url(../images/ftrs.png) center top no-repeat;
+	background-size: cover;
+}
+.contact-us h1{
+	font-size: 50px;
+	line-height: 60px;
+	font-weight: 700;
+	color: #000;
+}
+.contact-us p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	color: #000;
+}
+.contact-us .btn-success{
+	padding: 15px 35px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	color: #000;
+	background: transparent;
+	border: 1px solid #ff9b51;
+	transition: 1s;
+}
+.contact-us .btn-success:hover, .contact-us .btn-success:focus{
+	color: #ff9b51;
+	background:transparent;
+	border: 1px solid #ff9b51;
+}
+.footer{
+	width: 100%;
+	padding: 10px 0px;
+	text-align: center;
+	background-color: #000;
+}
+.social-icon{
+	width: 100%;
+	padding: 0px;
+	text-align: center;
+}
+.footer .social-icon li{
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+}
+.footer .social-icon li a{
+	display: block;
+	color: #fff;
+	margin: 0px 0px 0px 25px;
+	transition: 1s;
+}
+.footer .social-icon .fa{
+	width: 100%;
+	font-size: 15px;
+	color:#ccc ;
+	margin: 0px 15px 0px 22px;
+}
+
+
+.footer p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: center;
+    margin: 0px 20px;
+}
+.footer 
